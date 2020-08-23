@@ -69,6 +69,10 @@ if (!(argv.y && argv.m)) {
   throw new Error('please provide year and month with opotions -y and -m');
 }
 
+if (isNaN(Number(argv.y)) || isNaN(Number(argv.m))) {
+  throw new Error('please provide year and month as number');
+}
+
 const calender = getCalender(argv.y, argv.m);
 
 console.log(calender);
