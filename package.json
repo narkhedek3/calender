@@ -4,8 +4,15 @@
   "description": "calender cli",
   "main": "calender.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node calender.js -h"
   },
+  "bin": {
+    "calender": "./cli.js"
+  },
+  "files": [
+    "calender.js",
+    "cli.js"
+  ],
   "keywords": [
     "calender",
     "javascript"

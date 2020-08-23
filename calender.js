@@ -1,4 +1,4 @@
-const { argv } = require('yargs');
+
 
 const months = new Map([
   [1, 'JAN'],
@@ -15,7 +15,7 @@ const months = new Map([
   [12, 'DEC']
 ]);
 
-const getCalender = (year, month) => {
+exports.getCalender = (year, month) => {
 
   const heading =
     '*************************KIRAN\'s CALENDER*******************************\n' +
@@ -52,22 +52,11 @@ const getCalender = (year, month) => {
 
 
 
-const help = () => {
+exports.help = () => {
   console.log('|************* CALENDER *************|\n'
     + '| -y => to specify year                    |\n'
     + '| -m => to specify month in numbers [1-12] |\n'
     + '\n-y -m options are mandatory to print calender');
 };
 
-if (argv.h) {
-  return help();
-}
-
-if (!(argv.y && argv.m)) {
-  throw new Error('please provide year and month with opotions -y and -m');
-}
-
-const calender = getCalender(argv.y, argv.m);
-
-console.log(calender);
 
