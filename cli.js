@@ -20,7 +20,7 @@ const months = new Map([
 getCalender = (year, month) => {
 
   const heading =
-    '*************************KIRAN\'s CALENDER*******************************\n' +
+    '*********************************CALENDER*******************************\n' +
     '                            [' + months.get(month) + ' ' + year + ']\n' +
     '************************************************************************\n';
   let calenderString = heading + '\n\tSUN\t|\tMON\t|\tTUE\t|\tWED\t|\tTHU\t|\tFRI\t|\tSAT\n';
