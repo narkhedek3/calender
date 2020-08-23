@@ -1,7 +1,7 @@
 {
-  "name": "@kirann/calender",
-  "version": "1.0.2",
-  "description": "calender cli",
+  "name": "calender-cli",
+  "version": "1.0.3",
+  "description": "calender",
   "main": "cli.js",
   "scripts": {
     "test": "node cli.js -h"
@@ -10,7 +10,6 @@
     "calender": "./cli.js"
   },
   "files": [
-    "./calender.js",
     "./cli.js"
   ],
   "keywords": [
