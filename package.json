@@ -1,5 +1,5 @@
 {
-  "name": "calender",
+  "name": "@kirann/calender",
   "version": "1.0.2",
   "description": "calender cli",
   "main": "cli.js",
