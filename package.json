@@ -1,5 +1,5 @@
 {
-  "name": "calender",
+  "name": "@kirann/calender",
   "version": "1.0.0",
   "description": "calender cli",
   "main": "calender.js",
@@ -22,5 +22,6 @@
   "license": "ISC",
   "dependencies": {
     "yargs": "^15.4.1"
-  }
+  },
+  "devDependencies": {}
 }
