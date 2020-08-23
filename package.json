@@ -10,6 +10,14 @@
     "calender",
     "javascript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narkhedek3/calender.git"
+  },
+  "bugs": {
+    "url": "https://github.com/narkhedek3/calender/issues"
+  },
+  "homepage": "https://github.com/narkhedek3/calender#readme",
   "author": "Kiran Narkhede",
   "license": "ISC",
   "dependencies": {
